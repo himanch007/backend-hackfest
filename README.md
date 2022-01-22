@@ -14,7 +14,7 @@
    - ***```end-point Link:http://18.208.155.4:8000/register```***
    - Method: POST
     
-    <img src="Image/register.png">
+   <img src="Image/register.png">
 
  
 ## PATIENT INFO APIS
