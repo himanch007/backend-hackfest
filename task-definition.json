@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "052250720528.dkr.ecr.us-east-1.amazonaws.com/aws-ci-cd-group-d:latest",
+      "image": "052250720528.dkr.ecr.us-east-1.amazonaws.com/aws-ci-cd-group-d:ee47ce8f2e406ec198d0b52fea6671653cfe6579",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -56,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:052250720528:task-definition/aws-groupd-task:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:052250720528:task-definition/aws-groupd-task:2",
   "family": "aws-groupd-task",
   "requiresAttributes": [
     {
@@ -85,7 +85,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": "2048",
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
