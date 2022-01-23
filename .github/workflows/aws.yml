@@ -36,8 +36,8 @@ env:
   ECR_REPOSITORY: aws-ci-cd-group-d                  # set this to your Amazon ECR repository name
   ECS_CLUSTER: aws-groupd-cluster                       # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: task-definition.json # set this to the path to your Amazon ECS task definition
-  ECS_SERVICE: aws-groupd-service                                             # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: aws-groupd-container                   # set this to the name of the container in the
+  ECS_SERVICE: aws-lb-service                                             # file, e.g. .aws/task-definition.json
+  CONTAINER_NAME: aws-lb-container                   # set this to the name of the container in the
                                                 # containerDefinitions section of your task definition
 
 jobs:
